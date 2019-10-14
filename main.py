@@ -1,7 +1,7 @@
 import Info
 import json
 import deal_socket
-import  calculate_challenge
+import calculate_challenge
 import sys
 
 def main():
