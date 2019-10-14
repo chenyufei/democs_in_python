@@ -1,2 +1,0 @@
-生成动态库的方法:gcc  -shared -fPIC  aes.c  challenge.c  cmac.c  -o libchallenge.so
-减少动态库日的的大小，移除动态库的调试信息的方法:strip libchallenge.so 
