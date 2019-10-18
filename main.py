@@ -8,6 +8,7 @@ def main():
 
 	if len(sys.argv) < 5:
 		print('python %s ip port appeui appkey' % (sys.argv[0]))
+		print('example: python %s 127.0.0.1 3003 ffffffffffffffff 00112233445566778899aabbccddeeff' % (sys.argv[0]))
 		return
 
 	try:
